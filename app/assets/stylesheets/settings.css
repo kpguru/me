@@ -1,0 +1,129 @@
+/* CSS Document */
+
+ /* Settings panel Styles */
+#cfont,#confont{width:161px; height:30px; line-height:30px; padding:3px; margin-left:84px; font: 12px Arial, Helvetica, sans-serif; color:#666;}
+.settings-panel { position: fixed; top:30px; left: 0px; width: 270px; background-color: #fff; border: 1px solid #ebeff0; padding: 2px 5px 10px; margin-left: -282px; z-index: 9999999; }
+.settings-panel .open-buttton { display: block; width: 32px; height: 32px; background-color:none; position: absolute; top: 215px; right: -43px; cursor: pointer; padding: 3px 2px 2px;/* border: 1px solid #ebeff0; border-left: none; */}
+.open-buttton i{ font-size:40px; background:center center; line-height:25px;}
+.settings-panel h5 { line-height: 12px; margin: 0px 0px 8px 0px; padding: 0px; color: #555; }
+.settings-panel .patterns , .settings-panel .c_patterns  { overflow: hidden; margin: 0px 0px 0px -6px; padding: 0px 0px 3px 6px; }
+.settings-panel .patterns li, .settings-panel .c_patterns li { width: 35px; height: 35px; border: 1px solid #e1e4e5; float: left; margin: 0px 0px 2px 5px; cursor: pointer; } .settings-panel ul{ list-style:none;}
+
+.settings-panel .patterns li.bgs1 { background: url(/assets/1.png); }
+.settings-panel .patterns li.bgs2 { background: url(/assets/2.png); }
+.settings-panel .patterns li.bgs3 { background: url(/assets/3.png); }
+.settings-panel .patterns li.bgs4 { background: url(/assets/4.png); }
+.settings-panel .patterns li.bgs5 { background: url(/assets/5.png); }
+.settings-panel .patterns li.bgs6 { background: url(/assets/6.png); }
+.settings-panel .patterns li.bgs7 { background: url(/assets/7.png); }
+.settings-panel .patterns li.bgs8 { background: url(/assets/8.png); }
+.settings-panel .patterns li.bgs9 { background: url(/assets/9.png); }
+.settings-panel .patterns li.bgs10 {  background: url(/assets/10.png); }
+.settings-panel .patterns li.bgs11 {  background: url(/assets/11.png); }
+.settings-panel .patterns li.bgs12 {  background: url(/assets/12.png); }
+.settings-panel .patterns li.bgs13 {  background: url(/assets/13.png); }
+.settings-panel .patterns li.bgs14 {  background: url(/assets/14.png); }
+.settings-panel .patterns li.bgs15 {  background: url(/assets/15.png); }
+.settings-panel .patterns li.bgs16 {  background: url(/assets/16.png); }
+.settings-panel .patterns li.bgs17 {  background: url(/assets/17.png); }
+.settings-panel .patterns li.bgs18 {  background: url(/assets/18.png); }
+.settings-panel .patterns li.bgs19 {  background: url(/assets/19.png); }
+.settings-panel .patterns li.bgs20 {  background: url(/assets/20.png); }
+.settings-panel .patterns li.default {  background: url(/assets/1.png); }
+
+
+ /* Card Patterns Colors */
+.settings-panel .c_patterns li.c1 { 	background-color:#1a416b;  }
+.settings-panel .c_patterns li.c2 { 	background-color:#2caeb5;  }
+.settings-panel .c_patterns li.c3 { 	background-color:#719430;  }
+.settings-panel .c_patterns li.c4 { 	background-color:#999999;  }
+.settings-panel .c_patterns li.c5 { 	background-color:#74c676;  }
+.settings-panel .c_patterns li.c6 { 	background-color:#aec71e;  }
+.settings-panel .c_patterns li.c7 { 	background-color:#435960;  }
+.settings-panel .c_patterns li.c8 { 	background-color:#f3c432;  }
+.settings-panel .c_patterns li.c9 { 	background-color:#eb5f96;  }
+.settings-panel .c_patterns li.c10 { 	background-color:#de5a49;  }
+.settings-panel .c_patterns li.c11{ 	background-color:#7cb854;  }
+.settings-panel .c_patterns li.c12{ 	background-color:#dc0030;  }
+.settings-panel .c_patterns li.c13{ 	background-color:#ff2d2d;  }
+.settings-panel .c_patterns li.c14{ 	background-color:#ebda23;  }
+.settings-panel .c_patterns li.c15{ 	background-color:#a95f16;  }
+.settings-panel .c_patterns li.c16{ 	background-color:#3bc53b;  }
+.settings-panel .c_patterns li.c17{ 	background-color:#2d91ff;  }
+.settings-panel .c_patterns li.c18{ 	background-color:#01A9E0;  }
+.settings-panel .c_patterns li.c19{ 	background-color:#0095cc;  }
+.settings-panel .c_patterns li.c20{ 	background-color:#0CBFB3;  }
+.settings-panel .c_patterns li.c21{ 	background-color:#FF8C00;  }
+.settings-panel .c_patterns li.c22{ 	background-color:#E97F55;  }
+.settings-panel .c_patterns li.c23{ 	background-color:#8F776D;  }
+.settings-panel .c_patterns li.c24{ 	background-color:#AB696D;  }
+.settings-panel .c_patterns li.c25{ 	background-color:#C0BCBC;  }
+
+
+
+/* Card Patterns  */
+.settings-panel .patterns li.card_bgs1 { background: url(/assets/45degreee_fabric.png); }
+.settings-panel .patterns li.card_bgs2 { background: url(/assets/bgnoise_lg.png); }
+.settings-panel .patterns li.card_bgs3 { background: url(/assets/bright_squares.png); }
+.settings-panel .patterns li.card_bgs4 { background: url(/assets/wall4.png); }
+.settings-panel .patterns li.card_bgs5 { background: url(/assets/xv.png); }
+.settings-panel .patterns li.card_bgs6 { background: url(/assets/cork.png); }
+.settings-panel .patterns li.card_bgs7 { background: url(/assets/rockywall.png); }
+.settings-panel .patterns li.card_bgs8 { background: url(/assets/az_subtle.png); }
+.settings-panel .patterns li.card_bgs9 { background: url(/assets/light_wool.png); }
+.settings-panel .patterns li.card_bgs10 { background: url(/assets/subtle_freckles.png); }
+.settings-panel .patterns li.card_bgs11 { background: url(/assets/fabric_plaid.png); }
+.settings-panel .patterns li.card_bgs12{ background: url(/assets/hexellence.png); }
+.settings-panel .patterns li.card_bgs13 { background: url(/assets/light_alu.png); }
+.settings-panel .patterns li.card_bgs14 { background: url(/assets/project_papper.png); }
+.settings-panel .patterns li.card_bgs15 { background: url(/assets/ravenna.png); }
+.settings-panel .patterns li.card_bgs16 { background: url(/assets/roughcloth.png); }
+.settings-panel .patterns li.card_bgs17 { background: url(/assets/soft_wallpaper.png); }
+.settings-panel .patterns li.card_bgs18 { background: url(/assets/diagonal-noise.png); }
+.settings-panel .patterns li.card_bgs19 { background: url(/assets/tiny_grid.png);}
+.settings-panel .patterns li.card_bgs20 { background: url(/assets/textured_stripes.png);}
+.settings-panel .patterns li.card_bgs21 { background: url(/assets/extra_clean_paper.png); }
+.settings-panel .patterns li.card_bgs22 { background: url(/assets/tex2res2.png); }
+.settings-panel .patterns li.card_bgs23 { background: url(/assets/egg_shell.png); }
+.settings-panel .patterns li.card_bgs24 { background: url(/assets/frenchstucco.png); }
+.settings-panel .patterns li.card_bgs25 { background: url(/assets/gplaypattern.png); }
+.settings-panel .patterns li.card_bgs26 { background: url(/assets/pw_maze_white.png); }
+.settings-panel .patterns li.card_bgs27 { background: url(/assets/scribble_light.png); }
+.settings-panel .patterns li.card_bgs28 { background: url(/assets/subtle_dots.png); }
+.settings-panel .patterns li.card_bgs29 { background: url(/assets/subtle_white_feathers.png); }
+
+
+/* boxed and wide*/
+.boxedwide{ text-align:center; padding:10px 0px; margin-left:80px;}
+.boxed{width:60px; background-color:#ebda23; padding:2px 3px; cursor:pointer;}
+.wide{width:50px; background-color:#ebda23; padding:2px 3px; cursor:pointer; margin-left:10px;}
+.boxed:hover{color:#2E2E2E;}
+.wide:hover{color:#2E2E2E;}
+.bg1{ background-color:#3333FF; }
+
+
+
+.settings-panel  h5{ 
+	font-size:14px;
+	color:#61b1ca;
+	 font-weight:600;
+	 padding:3px 3px 0px 60px;
+}
+
+
+.settings-panel { 
+	font-size:10x;
+}
+
+
+/* Settings panel1 Styles */
+.settings-panel1 { position: fixed; top:40px; left: 0px; width: 270px; background-color: #fff; border: 1px solid #ebeff0; padding: 2px 5px 10px; margin-left: -282px;z-index: 9999999; }
+.settings-panel1 .open-buttton1 { display: block; width: 32px; height: 32px; background: url(/assets/services-icon2.png) center center #fff no-repeat; position: absolute; top: 240px; right: -37px; cursor: pointer; padding: 3px 2px 2px; border: 1px solid #ebeff0; border-left: none; }
+.settings-panel1 h5 { line-height: 12px; margin: 0px 0px 8px 0px; padding: 0px; color: #555; }
+.settings-panel1 .patterns , .settings-panel1 .c_patterns  { overflow: hidden; margin: 0px 0px 0px -6px; padding: 0px 0px 3px 6px; }
+.settings-panel1 .patterns li, .settings-panel1 .c_patterns li { width: 35px; height: 35px; border: 1px solid #e1e4e5; float: left; margin: 0px 0px 2px 5px; cursor: pointer; }
+
+
+
+
+/* background Patterns */
